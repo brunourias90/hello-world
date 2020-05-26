@@ -1,0 +1,20 @@
+Private Sub tabuada()
+
+Dim contador As Integer
+Dim tabuada As Integer
+Dim limite As Integer
+
+tabuada = 9
+limite = 10
+
+Do While contador <= limite
+
+
+MsgBox (tabuada & "X" & contador & "=" & contador * tabuada)
+contador = contador + 1
+
+
+Loop
+
+
+End Sub
